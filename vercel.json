@@ -1,0 +1,57 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/services",
+      "destination": "/#services",
+      "permanent": false
+    },
+    {
+      "source": "/results",
+      "destination": "/#results",
+      "permanent": false
+    },
+    {
+      "source": "/process",
+      "destination": "/#process",
+      "permanent": false
+    },
+    {
+      "source": "/faq",
+      "destination": "/#faq",
+      "permanent": false
+    },
+    {
+      "source": "/partners",
+      "destination": "/#partners",
+      "permanent": false
+    },
+    {
+      "source": "/contact",
+      "destination": "/#contact",
+      "permanent": false
+    },
+    {
+      "source": "/case-study",
+      "destination": "/case-studies",
+      "permanent": false
+    },
+    {
+      "source": "/casestudies",
+      "destination": "/case-studies",
+      "permanent": false
+    },
+    {
+      "source": "/impressum",
+      "destination": "/imprint",
+      "permanent": false
+    },
+    {
+      "source": "/datenschutz",
+      "destination": "/privacy",
+      "permanent": false
+    }
+  ]
+}
