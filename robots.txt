@@ -1,0 +1,45 @@
+# robots.txt — vimperastudios.com
+
+# --- AI-Crawler: ausdrücklich erlaubt ---
+
+# ChatGPT Websuche — entscheidet über Zitate in ChatGPT-Antworten
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI Modelltraining
+User-agent: GPTBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI Overviews und Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl — Datenquelle für viele Modelle
+User-agent: CCBot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# --- Alle übrigen ---
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.vimperastudios.com/sitemap.xml
